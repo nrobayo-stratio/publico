@@ -1,0 +1,219 @@
+{
+  "env": {
+    "JDBC_DS_DRIVER_NAME": "org.postgresql.Driver",
+    "GOVERNANCE_HOST": "dg-businessglossary-api.governance.marathon.mesos",
+    "JDBC_DS_ENGINE": "default",
+    "COMM_DS_DRIVER_NAME": "org.postgresql.Driver",
+    "SERVICE_CONSTRAINT_NAME": "type",
+    "METRICS_PORT": "8085",
+    "AGENT_SERVER_ADAPTIVE_HEALTHCHECK_MAXIMUM_DELAY": "1 hour",
+    "DATASTORE_TLS_ENABLE": "true",
+    "STEP_SECRETS": "true",
+    "AGENT_SERVER_ASYNCHRONOUS_HEALTHCHECK_DELAY": "30 seconds",
+    "AGENT_SERVER_ADAPTIVE_HEALTHCHECK_DELAY_FACTOR": "2.0",
+    "VAULT_PATH": "userland",
+    "EXTRACT_INSTANCE": "bdadev-dg-postgresql-agent-rdsdevops.bdadev.marathon.mesos",
+    "JDBC_DS_ENGINE_RESOURCE_UK_ENABLED": "true",
+    "DB_CERT_FQDN": "dg-bootstrap",
+    "JDBC_DS_MAX_POOL_SIZE": "4",
+    "JDBC_SERVICE_DS_SECURITY": "MD5",
+    "SERVICE_ID": "/bdadev/bdadev-dg-postgresql-agent-rdsdevops",
+    "DB_CA_INSTANCE": "default",
+    "JDBC_DS_URL": "jdbc:postgresql://nu00549-stratio-stack-dev-rds-devops-databases-1vza43joirhn.c6dznxu376pa.us-east-1.rds.amazonaws.com:5432/-db-?prepareThreshold=0",
+    "GOVERNANCE_MANAGEMENT_BASE_URI": "http://dg-businessglossary-api.governance.marathon.mesos:8092/actuator",
+    "JDBC_STRATIO_CREDENTIALS": "bp-pg-rdsdevops",
+    "EXTRACT_CA_PATH": "ca-trust",
+    "EXTRACT_CA_INSTANCE": "default",
+    "DATASTORE_HOST": "poolpostgreseos.marathon.mesos:5432",
+    "AGENT_SERVER_PROMETHEUS_ENABLED": "true",
+    "GOVERNANCE_BASE_URI": "https://dg-businessglossary-api.governance.marathon.mesos:60000/dictionary",
+    "EXTRACT_JDBC_STORE": "PostgreSQL",
+    "JDBC_SERVICE_DS_URL": "jdbc:postgresql://nu00549-stratio-stack-dev-rds-devops-databases-1vza43joirhn.c6dznxu376pa.us-east-1.rds.amazonaws.com:5432/-db-?prepareThreshold=0",
+    "STEP_EXTRACT": "MD5",
+    "JDBC_DS_ENGINE_FILTER_SCHEMA_TABLE": "",
+    "AGENT_SERVER_PROMETHEUS_CHROOT": "/",
+    "NATIVE_MODE": "true",
+    "DEBUG": "false",
+    "COMM_BACKOFF_RETRY": "4",
+    "AGENT_SERVER_ADAPTIVE_HEALTHCHECK_INITIAL_DELAY": "15 seconds",
+    "COMM_DS_URL": "jdbc:postgresql://poolpostgreseos.marathon.mesos:5432/postgreseos?prepareThreshold=0",
+    "COMM_LOGIC_SCHEMA": "dg_metadata.data_asset",
+    "LEVERAGED_CONSTRAINTS": "true",
+    "JDBC_SERVICE_DS_TYPECONFIG": "DS",
+    "JDBC_SERVICE_SECURITY": "MD5",
+    "AGENT_SERVER_HEALTHCHECK_ENABLED": "true",
+    "COMM_DS_MAX_POOL_SIZE": "4",
+    "COMM_DS_URL_LL": "jdbc:postgresql://poolpostgreseos.marathon.mesos:5432/postgreseos?prepareThreshold=0",
+    "JDBC_SERVICE_DS_PREFERRED": "true",
+    "STEP_POSTGRES": "TLS",
+    "SERVICE_CONSTRAINT_VALUE": "stateless",
+    "LOGIC_LAYER_SYNCHRONIZATION": "true",
+    "NAME_ID": "dg-postgresql-agent-rdsdevops",
+    "AGENT_ROLE_ID": "BDL",
+    "AGENT_LOG_LEVEL": "INFO",
+    "APPROLENAME": "bdadev-dg-agent",
+    "JDBC_SERVICE_VERSION": "-",
+    "COMM_DS_USER": "dg-bootstrap",
+    "COMM_SERVICE_VENDOR": "postgres",
+    "AGENT_SERVER_ADAPTIVE_HEALTHCHECK_MINIMUM_DELAY": "5 seconds",
+    "CALICO_NETWORK": "stratio-shared",
+    "JDBC_DS_ENGINE_SKIP_SCHEMA_TABLE": "",
+    "VAULT_PORT": "8200",
+    "COMM_CACHE_PATH": "/cache",
+    "COMM_EXTRACT_CLASS_NAME": "com.stratio.governance.agent.jdbc.extractor.JdbcExtractor",
+    "DATASTORE_DATABASE": "postgreseos",
+    "DB_CA_PATH": "ca-trust",
+    "EXTRACT_PATH": "bdadev-dg-postgresql-agent-rdsdevops.bdadev.marathon.mesos",
+    "SERVICE_CONSTRAINT_OPERATOR": "CLUSTER",
+    "COMM_HOST_NAME": "nu00549-stratio-stack-dev-rds-devops-databases-1vza43joirhn.c6dznxu376pa.us-east-1.rds.amazonaws.com",
+    "AGENT_SERVER_HEALTHCHECK_PATH": "status",
+    "COMM_SERVICE_NAME": "rdsdevops",
+    "COMM_DS_PASSWORD": "stratio",
+    "NETWORK_SEGMENTATION": "true",
+    "JDBC_SERVICE_URL": "jdbc:postgresql://nu00549-stratio-stack-dev-rds-devops-databases-1vza43joirhn.c6dznxu376pa.us-east-1.rds.amazonaws.com:5432/-db-?prepareThreshold=0",
+    "DB_CERT_INSTANCE": "dg-bootstrap",
+    "COMM_SERVICE_INIT_PATH": "/parametria_ingesta",
+    "VAULT_HOSTS": "vault.service.eos.bdadev.cloudnp.bpichincha.com",
+    "AGENT_SERVER_PROMETHEUS_PATH": "metrics",
+    "USE_DYNAMIC_AUTHENTICATION": "true",
+    "JDBC_SERVICE_DS_DRIVER": "org.postgresql->postgresql->42.1.0",
+    "AGENT_SERVER_HEALTHCHECK_CHROOT": "health",
+    "COMM_ACTOR_SYSTEM_BACKOFF_RETRY": "5",
+    "AGENT_LOGGING_TYPE": "CentralizedJSON",
+    "COMM_SERVICE_TENANT": "bdadev",
+    "COMM_SERVICE_TYPE": "SQL",
+    "COMM_POOLING": "30000",
+    "DB_CERT_PATH": "dg-bootstrap",
+    "DB_PORT": "5432",
+    "JDBC_DS_TABLE_TYPE": "TABLE",
+    "METRICS_ENABLED": "false"
+  },
+  "labels": {
+    "DCOS_PACKAGE_RELEASE": "1",
+    "APPLICATION_networkIpPool": "10.168.64.0/19",
+    "DCOS_PACKAGE_REGISTRY_VERSION": "3.0",
+    "DCOS_SERVICE_NAME": "bdadev-dg-postgresql-agent-rdsdevops",
+    "APPLICATION_tenantId": "bdadev",
+    "STRATIO_SERVICE": "governance",
+    "DCOS_PACKAGE_FRAMEWORK_NAME": "bdadev-dg-postgresql-agent-rdsdevops",
+    "APPLICATION_MEM": "4096",
+    "APPLICATION_networkName": "stratio-shared",
+    "STRATIO_SERVICE_VERSION": "11.3.0",
+    "APPLICATION_serviceName": "governance",
+    "DCOS_PACKAGE_VERSION": "2.0.0",
+    "APPLICATION_CPUs": "1",
+    "APPLICATION_multitenantInstanceName": "bdadev-dg-postgresql-agent-rdsdevops.bdadev",
+    "DCOS_MIGRATION_API_PATH": "/v1/path",
+    "DCOS_PACKAGE_NAME": "bdadev-dg-postgresql-agent-rdsdevops",
+    "APPLICATION_serviceModel": "agent-pg-external-default",
+    "DCOS_PACKAGE_IS_FRAMEWORK": "false",
+    "APPLICATION_INSTANCES": "1",
+    "STRATIO_SERVICE_MODEL": "agent-pg-external-default",
+    "DCOS_MIGRATION_API_VERSION": "v1"
+  },
+  "id": "/bdadev/bdadev-dg-postgresql-agent-rdsdevops",
+  "backoffFactor": 1.15,
+  "backoffSeconds": 1,
+  "constraints": [
+    [
+      "type",
+      "CLUSTER",
+      "stateless"
+    ]
+  ],
+  "container": {
+    "portMappings": [
+      {
+        "containerPort": 8000,
+        "servicePort": 10341,
+        "name": "13420"
+      },
+      {
+        "containerPort": 8001,
+        "servicePort": 10342,
+        "name": "13421"
+      },
+      {
+        "containerPort": 8001,
+        "labels": {
+          "metrics_path": "/metrics"
+        },
+        "servicePort": 10343,
+        "name": "metrics"
+      }
+    ],
+    "type": "DOCKER",
+    "volumes": [
+      {
+        "containerPath": "/etc/resolv.conf",
+        "hostPath": "/etc/resolv.conf",
+        "mode": "RO"
+      },
+      {
+        "containerPath": "/etc/krb5.conf",
+        "hostPath": "/etc/krb5.conf",
+        "mode": "RO"
+      }
+    ],
+    "docker": {
+      "image": "registry.bdadev.cloudnp.bpichincha.com:5001/stratio/dg-jdbc-agent:1.10.2",
+      "forcePullImage": false,
+      "privileged": false,
+      "parameters": []
+    }
+  },
+  "cpus": 1,
+  "disk": 0,
+  "healthChecks": [
+    {
+      "gracePeriodSeconds": 360,
+      "ignoreHttp1xx": false,
+      "intervalSeconds": 120,
+      "maxConsecutiveFailures": 3,
+      "portIndex": 1,
+      "timeoutSeconds": 60,
+      "delaySeconds": 15,
+      "protocol": "HTTP",
+      "path": "/health/status/self",
+      "ipProtocol": "IPv4"
+    },
+    {
+      "gracePeriodSeconds": 360,
+      "ignoreHttp1xx": false,
+      "intervalSeconds": 120,
+      "maxConsecutiveFailures": 1000,
+      "portIndex": 1,
+      "timeoutSeconds": 60,
+      "delaySeconds": 15,
+      "protocol": "HTTP",
+      "path": "/health/status/ecosystem",
+      "ipProtocol": "IPv4"
+    }
+  ],
+  "instances": 1,
+  "maxLaunchDelaySeconds": 3600,
+  "mem": 1024,
+  "gpus": 0,
+  "networks": [
+    {
+      "name": "stratio-shared",
+      "mode": "container"
+    }
+  ],
+  "requirePorts": false,
+  "secrets": {
+    "role": {
+      "source": "bdadev-dg-agent"
+    }
+  },
+  "upgradeStrategy": {
+    "maximumOverCapacity": 0,
+    "minimumHealthCapacity": 0
+  },
+  "killSelection": "YOUNGEST_FIRST",
+  "unreachableStrategy": {
+    "inactiveAfterSeconds": 0,
+    "expungeAfterSeconds": 0
+  },
+  "fetch": []
+}
